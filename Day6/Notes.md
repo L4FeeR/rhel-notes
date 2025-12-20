@@ -15,3 +15,8 @@ gateway --> bastion (172.25.250.254)
 dns -->  classroom(172.25.254.254)
 
 bastion is bridge between host and vm server connections , clasroom act as repo for pkg
+
+
+#### Network manager
+
+sudo vim /etc/NetworkManager/system-connections/System\ eth0.nmconnection

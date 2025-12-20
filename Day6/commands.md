@@ -4,3 +4,4 @@
 3. nmcli con mod
 4. nmcli connection up "system eth0"
 5. nmcli reload
+6. nmcli connection show Wired\ Connection1
