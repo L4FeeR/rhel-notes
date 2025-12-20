@@ -34,7 +34,7 @@
 30. `dnf module list`
 31. `dnf module install ruby`
 32. `dnf group install "server with GUI"`
-33. `dns history`
+33. `dnf history`
 34. `dnf history undo 12` 
 35. `dnf remove pckgname`
 36. `dnf clean`

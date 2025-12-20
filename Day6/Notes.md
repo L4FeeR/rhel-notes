@@ -20,3 +20,37 @@ bastion is bridge between host and vm server connections , clasroom act as repo 
 #### Network manager
 
 sudo vim /etc/NetworkManager/system-connections/System\ eth0.nmconnection
+
+
+
+
+### Containers
+
+CONTAINER IMAGE
+CONTAINER REGISTRIES
+
+
+	Container URL --> LOGIN --> 
+	Container 
+
+podman login registry.lab.example.com --tls-verify=false 
+username: admin
+passwd: redhat321
+
+
+podman info
+podman pull registry.lab.example.com/ubi9/ubi --tls-verify=false
+
+podman run -rm registry.lab.example.com/ubi9/ubi echo "welcome baka"
+
+
+podman ps -a
+
+podman run -e name=lafeer reg... printenv name
+
+podman pull registry.lab.example.com/rhel9/httpd-24 --tls-verify=false
+
+
+podman run -p 8000:8080 -rm registry.lab.example.com/rhel9/httpd-24 echo "welcome baka" 
+
+-d used to detach , run all times in bg
